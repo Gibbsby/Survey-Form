@@ -1,0 +1,21 @@
+h1, p {
+    text-align: center;
+    font-family: Candara;
+}
+body {
+    font-family: Candara;
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+label {
+    font-size: 18px;
+    display: block;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+}
+form {
+    background-color: #fff7f0;
+}

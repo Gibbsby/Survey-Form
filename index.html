@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#f0f8ff;"></body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <h1 id="title">Paw Per House</h1>
+
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <p id="description">
+            How many pets and children per household
+        </p>
+        <form id="survey-form">
+            <label id="name-label">Name: </label>
+            <input type="text" name="name" id="name" placeholder="First and Last Name" required></input><br><br>
+            <label id="email-label">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Email" required></input><br><br>
+            <label id="number-label">Dogs: </label>
+            <input type="number" name="number-label" id="number" placeholder="#" min="0" max="20"></input><br><br>
+            <label id="number-label">Cats: </label>
+            <input type="number" name="number-label2" id="number" placeholder="#" min="0" max="50"></input><br><br>
+            
+            <label id="other">Other(s): </label>
+            <select id="dropdown" name="other-animals">
+                <option value="rodents">Rodents</option>
+                <option value="reptiles">Reptiles</option>
+                <option value="amphibians">Amphibians</option>
+                <option value="aquatic-creatures">Fish</option>
+                <option value="large-mammals">Large Mammals</option>
+            </select>
+
+            <br>
+            <input type="radio" name="radio" value="no-pets">No Pets</input><br>
+
+            <input type="radio" name="radio" value="children">Children</input>
+            <br>
+
+            <input type="checkbox" name="checkbox1" value="one-child">One Child</input><br>
+            <input type="checkbox" name="checkbox2" value="two-children">Two Children</input><br>
+            <input type="checkbox" name="checkbox3" value="three-children">Three Children</input><br>
+            <input type="checkbox" name="checkbox4" value="four-or-more">Four or More Children</input><br>
+
+            <textarea placeholder="Additional Comments"></textarea><br><br>
+
+            <input type="submit" id="submit"></input>
+
+        </form>
+</body>
+</html>
